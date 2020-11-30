@@ -1,0 +1,45 @@
+{
+  "provider": {
+    "name": "Provider"
+  },
+  "consumer": {
+    "name": "Consumer from unit test"
+  },
+  "interactions": [
+    {
+      "description": "a request for json data",
+      "request": {
+        "method": "POST",
+        "path": "/busicapa-api/onbase/documents/query",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "rqUID": "90124021"
+        }
+      },
+      "providerStates": [
+        {
+          "name": "The provider has a valid rquid "
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    },
+    "pact-jvm": {
+      "version": "4.1.7"
+    }
+  }
+}
