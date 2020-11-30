@@ -4,14 +4,14 @@
 # Descripción de PACT
 [PACT Site](https://https://docs.pact.io/)
 
-- PACT es un framework que nos permite validar los contratos de un cliente y de un server que expone un servicio, este framework tiene características que permiten validar cuando un cambio cambio o cuando fue agregado o eliminado , permitiendo aplicar una estrategia de fail fast.
+- PACT es un framework que nos permite validar los contratos de un cliente y de un server que expone un servicio, este framework tiene características que permiten validar cuando un cambio fue agregado o eliminado , permitiendo aplicar una estrategia de fail fast.
 
 # Objetivo
 
 ![Interacción entre servicios](diagrams/services.png)
 
-- Este código intenta hacer una breve descripción de como se puede usar PACT con dos proyecto Cliente/Servidor, los dos componentes
-Hacer uso de Java como lenguaje base, sin embargo, PACT soporta varios lenguajes de programación como 
+- Este código intenta hacer una breve descripción de como se puede usar PACT con dos proyectos Cliente/Servidor, los dos componentes
+hacen uso de Java como lenguaje base, sin embargo, PACT soporta varios lenguajes de programación como 
 por ejemplo: Java, Python, Go, JS
 
 
@@ -21,7 +21,7 @@ por ejemplo: Java, Python, Go, JS
 ![Consumer](diagrams/consumer.png)
 
  - Este proyecto contiene la configuración necesaria para correr una prueba con PACT y generar el archivo Pact.json 
- el cual contiene las interacciones. Este archivo es el que se colocará en el provider, se usando una tarea automática, manual o usando el Pact Broker.
+ el cual contiene las interacciones. Este archivo se colocará en el provider,  usando una tarea automática, manual o usando el Pact Broker.
  
 # Detalle de Consumer
 
